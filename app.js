@@ -5,7 +5,7 @@ import { getVehicles } from './handlers/getVehiclesHandler.js';
 import { getAgencies } from './handlers/getAgenciesHandler.js';
 
 config();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 const corsHeaders = {
     'Access-Control-Allow-Origin': '*',
